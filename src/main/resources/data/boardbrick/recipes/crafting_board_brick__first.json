@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boardbrick:board_block_first"
+    }
+  ],
+  "result": {
+    "item": "boardbrick:boardbrick",
+    "count": 64
+  }
+}

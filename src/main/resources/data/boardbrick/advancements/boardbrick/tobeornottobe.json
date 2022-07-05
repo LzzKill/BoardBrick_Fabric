@@ -1,0 +1,48 @@
+{
+  "parent": "boardbrick:boardbrick/root",
+  "display": {
+    "icon": {
+      "item": "boardbrick:board_brick_sword",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.boardbrick.tobeornottobe.title"
+    },
+    "description": {
+      "translate": "advancements.boardbrick.tobeornottobe.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tobeornottobe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "boardbrick:sword_super"
+          },
+          {
+            "item": "boardbrick:pickaxe_super"
+          },
+          {
+            "item": "boardbrick:hoe_super"
+          },
+          {
+            "item": "boardbrick:sword_super"
+          },
+          {
+            "item": "boardbrick:shovel_super"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tobeornottobe"
+    ]
+  ]
+}

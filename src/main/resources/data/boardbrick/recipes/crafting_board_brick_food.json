@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boardbrick:boardbrick"
+    },
+    {
+      "item": "boardbrick:boardbrick"
+    },
+    {
+      "item": "boardbrick:boardbrick"
+    },
+    {
+      "item": "boardbrick:boardbrick"
+    }
+  ],
+  "result": {
+    "item": "boardbrick:board_brick_food"
+  }
+}
