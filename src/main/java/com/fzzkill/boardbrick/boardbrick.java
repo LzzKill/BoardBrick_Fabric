@@ -34,5 +34,10 @@ public class boardbrick implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_food"), Objects.BoardBrickFood);
         Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_food_plus"), Objects.BoardBrickFoodPlus);
 
+        Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_sword"), Objects.GenSword);
+        Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_pickaxe"), Objects.GenPickaxe);
+        Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_axe"), Objects.GenAxe);
+        Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_shovel"), Objects.GenShovel);
+        Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_hoe"), Objects.GenHoe);
     }
 }
