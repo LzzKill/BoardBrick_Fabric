@@ -14,6 +14,7 @@ public class boardbrick implements ModInitializer {
     public static final String MODID = "boardbrick";
 
     // new Group
+
     public static class BoardGroup implements ModInitializer {
 
         public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
@@ -30,5 +31,8 @@ public class boardbrick implements ModInitializer {
     @Override
     public void onInitialize() {
         Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "boardbrick"), Objects.boardbrick);
+        Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_food"), Objects.BoardBrickFood);
+        Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_food_plus"), Objects.BoardBrickFoodPlus);
+
     }
 }
