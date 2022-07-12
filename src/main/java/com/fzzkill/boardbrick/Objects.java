@@ -19,4 +19,6 @@ public class Objects {
     public static final ToolItem GenShovel = new GenItems.Shovel(GenMaterial.GenTools, 1919810, 0, new Item.Settings().group(com.fzzkill.boardbrick.boardbrick.BoardGroup.ITEM_GROUP));
     public static final ToolItem GenHoe = new GenItems.Hoe(GenMaterial.GenTools, 1919810, 0, new Item.Settings().group(com.fzzkill.boardbrick.boardbrick.BoardGroup.ITEM_GROUP));
 
+    // public static final ToolItem Super
+
 }

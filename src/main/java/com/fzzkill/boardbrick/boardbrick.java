@@ -39,5 +39,6 @@ public class boardbrick implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_axe"), Objects.GenAxe);
         Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_shovel"), Objects.GenShovel);
         Registry.register(Registry.ITEM, new Identifier(boardbrick.MODID, "board_brick_hoe"), Objects.GenHoe);
+
     }
 }

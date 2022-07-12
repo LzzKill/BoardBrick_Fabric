@@ -1,36 +1,36 @@
-package com.fzzkill.boardbrick.Tools.Gen;
+package com.fzzkill.boardbrick.Tools.Super;
 
 import com.fzzkill.boardbrick.Objects;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class GenMaterial implements ToolMaterial {
+public class SuperMaterial implements ToolMaterial {
 
-    public static final GenMaterial GenTools = new GenMaterial();
+    SuperMaterial superMaterial = new SuperMaterial();
 
     @Override
     public int getDurability() {
-        return 114514;
+        return Integer.MAX_VALUE;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 114514;
+        return Integer.MAX_VALUE;
     }
 
     @Override
     public float getAttackDamage() {
-        return 114514;
+        return Integer.MAX_VALUE;
     }
 
     @Override
     public int getMiningLevel() {
-        return 114514;
+        return Integer.MAX_VALUE;
     }
 
     @Override
     public int getEnchantability() {
-        return 11;
+        return Integer.MAX_VALUE;
     }
 
     @Override

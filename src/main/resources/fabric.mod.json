@@ -14,7 +14,7 @@
   },
 
   "license": "Mozilla Public License 2.0",
-  "icon": "assets/boardbrick/BoardBrickLogo.png",
+  "icon": "assets/boardbrick/boardbrickmod.png",
 
   "environment": "*",
   "entrypoints": {
