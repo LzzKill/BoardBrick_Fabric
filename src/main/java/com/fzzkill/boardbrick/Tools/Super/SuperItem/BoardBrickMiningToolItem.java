@@ -10,12 +10,11 @@ import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.*;
-import net.minecraft.tag.BlockTags;
 import net.minecraft.tag.TagKey;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class BoardBrickMiningToolItem extends ToolItem implements Vanishable {
+public class BoardBrickMiningToolItem extends BoardBrickToolItem implements Vanishable {
     protected final float miningSpeed;
     private final float attackDamage;
     private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
@@ -31,7 +30,7 @@ public class BoardBrickMiningToolItem extends ToolItem implements Vanishable {
     }
 
     public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {
-        return 0.1F;
+        return Float.MAX_VALUE;
     }
 
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {

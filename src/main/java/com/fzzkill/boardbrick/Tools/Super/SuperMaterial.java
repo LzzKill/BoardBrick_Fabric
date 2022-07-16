@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 
 public class SuperMaterial implements ToolMaterial {
 
-    SuperMaterial superMaterial = new SuperMaterial();
+    public static SuperMaterial superMaterial = new SuperMaterial();
 
     @Override
     public int getDurability() {

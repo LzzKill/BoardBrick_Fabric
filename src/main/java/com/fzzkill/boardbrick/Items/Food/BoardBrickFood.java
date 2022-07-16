@@ -13,7 +13,7 @@ public class BoardBrickFood extends Item {
                 .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 12000, 255),Float.MAX_VALUE)
                 .statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 12000, 255),Float.MAX_VALUE)
                 .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 12000, 255),Float.MAX_VALUE)
-                .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 12000, 4),Float.MAX_VALUE)
+                .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 12000, 1),Float.MAX_VALUE)
                 .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 12000, 255),Float.MAX_VALUE)
                 .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 12000, 255),Float.MAX_VALUE)
                 .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 12000, 255),Float.MAX_VALUE)
